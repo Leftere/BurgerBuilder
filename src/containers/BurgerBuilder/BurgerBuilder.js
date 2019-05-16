@@ -12,13 +12,15 @@ class BurgerBuilder extends Component {
         ingredients: {
             salad: 0,
             bacon: 0,
-            cheese: 0,
+            cheese: 2,
             meat: 0
         }
     }
+        
 
     render () {
         return (
+                
             <Aux>
                 <Burger ingredients={this.state.ingredients} />
                 <div>Build Controls</div>
